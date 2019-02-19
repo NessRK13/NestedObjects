@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace NestedObjects
+{
+    class Student
+    {
+        /// <summary>
+        /// The full name of the student
+        /// (First, Middle Initial, last)
+        /// </summary>
+        public string Name { get; set; }
+
+        public DateTime? DateOfBirth { get; set; }
+
+        public Advisor AssignedAdvisor { get; set; }
+    }
+}
